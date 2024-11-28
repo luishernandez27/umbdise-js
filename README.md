@@ -12,3 +12,8 @@ Este proyecto es un ejemplo de un servidor Node.js con Express que incluye:
    git clone https://github.com/tu-usuario/umbdise-js.git
 npm install
 node server.js
+## Rutas
+Ruta principal: http://localhost:3000/
+API: http://localhost:3000/api
+Formulario con validaciones: http://localhost:3000/form.html
+Manipulación del DOM: http://localhost:3000/dom.html
