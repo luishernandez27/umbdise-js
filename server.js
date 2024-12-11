@@ -7,8 +7,9 @@ app.use(express.static('public'));
 
 // Ruta inicial
 app.get('/', (req, res) => {
-    res.send('¡Servidor funcionando correctamente!');
+    res.sendFile(__dirname + '/public/dom.html');
 });
+
 
 // Nueva ruta para la API
 app.get('/api', (req, res) => {
